@@ -1,4 +1,4 @@
-class Gnparser < Formula
+class Gnverify < Formula
   desc "Verifies scientific names via exact and fuzzy matching."
   homepage "https://github.com/gnames/gnverify"
   url "https://github.com/gnames/gnverify/archive/v0.1.0.tar.gz"
