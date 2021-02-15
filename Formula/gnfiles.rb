@@ -12,7 +12,7 @@ class Gnfiles < Formula
   end
 
   test do
-    res = `#{bin}/gnparser -V`
+    res = `#{bin}/gnfiles -V`
     assert_match /version/, res
   end
 end
