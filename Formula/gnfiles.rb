@@ -1,4 +1,4 @@
-class Gnparser < Formula
+class Gnfiles < Formula
   desc "Uses IPFS to exchange files between computers"
   homepage "https://github.com/gnames/gnfiles"
   url "https://github.com/gnames/gnfiles/archive/v0.0.1.tar.gz"
