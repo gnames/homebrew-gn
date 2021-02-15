@@ -8,7 +8,6 @@ class Gnfiles < Formula
   depends_on "go" => :build
 
   def install
-    man1.install "man/gnparser.1"
     system "go", "build", "-o", *std_go_args, "./gnfiles"
   end
 
