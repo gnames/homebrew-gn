@@ -2,7 +2,7 @@ class Gnverifier < Formula
   desc 'Verifies scientific names via exact and fuzzy matching'
   homepage 'https://github.com/gnames/gnverifier'
   url 'https://github.com/gnames/gnverifier/archive/v0.5.2.tar.gz'
-  sha256 '4c3fc0806079b1c93e0d1a30f098252f688024ccf79931f41cb8608ec1b05a8e'
+  sha256 '0b4cb2906efd8f7def763048b68a0f206ac35ee237030d716e1f566408d2ef34'
   license 'MIT'
 
   depends_on 'go' => :build
