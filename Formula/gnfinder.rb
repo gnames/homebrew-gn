@@ -2,7 +2,7 @@ class Gnfinder < Formula
   desc 'Finds scientific names in texts, PDF files, MS Word documents etc.'
   homepage 'https://github.com/gnames/gnfinder'
   url 'https://github.com/gnames/gnfinder/archive/v0.18.3.tar.gz'
-  sha256 '7b9ea3164718c6453614230983e66eb6a0ded5a0388f04c4f0cf012ef9908dea'
+  sha256 'c9b51977ad19b292edd1c7bf4a31ccea6121eb0678c9bee3b403a69547d10cf6'
   license 'MIT'
 
   depends_on 'go' => :build
