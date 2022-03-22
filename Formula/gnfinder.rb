@@ -1,7 +1,7 @@
 class Gnfinder < Formula
   desc 'Finds scientific names in texts, PDF files, MS Word documents etc.'
   homepage 'https://github.com/gnames/gnfinder'
-  url 'https://github.com/gnames/gnfinder/archive/v0.18.2.tar.gz'
+  url 'https://github.com/gnames/gnfinder/archive/v0.18.3.tar.gz'
   sha256 '7b9ea3164718c6453614230983e66eb6a0ded5a0388f04c4f0cf012ef9908dea'
   license 'MIT'
 
