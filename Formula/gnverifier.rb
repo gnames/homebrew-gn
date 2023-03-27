@@ -8,7 +8,7 @@ class Gnverifier < Formula
   depends_on 'go' => :build
 
   def install
-    system 'go', 'build', '-o', *std_go_args, './gnverifier'
+    system 'go', 'build',  *std_go_args, '-o', './gnverifier'
   end
 
   test do
