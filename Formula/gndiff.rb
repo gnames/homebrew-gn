@@ -8,6 +8,6 @@ class Gndiff < Formula
   depends_on 'go' => :build
 
   def install
-    system 'go', 'build', '-o', *std_go_args, './gndiff'
+    system 'go', 'build', '-o', *std_go_args, '.'
   end
 end
