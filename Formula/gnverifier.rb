@@ -1,7 +1,7 @@
 class Gnverifier < Formula
   desc 'Verifies scientific names via exact and fuzzy matching'
   homepage 'https://github.com/gnames/gnverifier'
-  url 'https://github.com/gnames/gnverifier/archive/v1.1.1.tar.gz'
+  url 'https://github.com/gnames/gnverifier/archive/v1.1.5.tar.gz'
   sha256 '79d062dfde33080c788917a5ddec6d7d12b98b71c14291252d4a26097bbea63b'
   license 'MIT'
 
