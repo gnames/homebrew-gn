@@ -2,7 +2,7 @@ class Dwca < Formula
   desc "A command line tool to work with Darwin Core Archives"
   homepage "https://github.com/gnames/dwca"
   url "https://github.com/gnames/dwca/archive/v0.1.0.tar.gz"
-  sha256 ""
+  sha256 "799d16e51534d92599e037b9db04348607948c3b746fcdcbaa3382e5564329a9"
   license "MIT"
 
   depends_on "go" => :build
