@@ -1,4 +1,4 @@
-class DwCA < Formula
+class Dwca < Formula
   desc "A command line tool to work with Darwin Core Archives"
   homepage "https://github.com/gnames/dwca"
   url "https://github.com/gnames/dwca/archive/v0.1.0.tar.gz"
@@ -8,7 +8,7 @@ class DwCA < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", "-o", *std_go_args, "./gnfiles"
+    system "go", "build", "-o", *std_go_args, "./dwca"
   end
 
   test do
