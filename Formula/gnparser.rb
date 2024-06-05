@@ -1,7 +1,7 @@
 class Gnparser < Formula
   desc 'Breaks biodiversity scientific names into their elements'
   homepage 'https://github.com/gnames/gnparser'
-  url 'https://github.com/gnames/gnparser/archive/v1.10.0.tar.gz'
+  url 'https://github.com/gnames/gnparser/archive/v1.10.1.tar.gz'
   sha256 '086b2ad22d4c85569a2c031761d6c8f6aa6369b70d9912944968a04c08e49206'
   license 'MIT'
 
