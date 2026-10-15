@@ -12,7 +12,7 @@ class Gnfinder < Formula
   end
 
   test do
-    res = `echo "Bubo bubo" | #{bin}/gnfinder -f compact"`
+    res = `echo "Bubo bubo" | #{bin}/gnfinder -f compact`
     assert_match(/"name":"Bubo bubo"/, res)
   end
 end
